@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSThing.Desktop", "ECSThing.Desktop\ECSThing.Desktop.csproj", "{B5359D4D-AB51-421C-A2D3-2F92A5899535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libECSThing", "libECSThing\libECSThing.csproj", "{215036E1-76BF-4265-8DAA-C5097DAD6AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5359D4D-AB51-421C-A2D3-2F92A5899535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5359D4D-AB51-421C-A2D3-2F92A5899535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5359D4D-AB51-421C-A2D3-2F92A5899535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5359D4D-AB51-421C-A2D3-2F92A5899535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215036E1-76BF-4265-8DAA-C5097DAD6AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215036E1-76BF-4265-8DAA-C5097DAD6AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215036E1-76BF-4265-8DAA-C5097DAD6AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215036E1-76BF-4265-8DAA-C5097DAD6AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
