@@ -19,7 +19,7 @@ public class RenderSystem : EntityDrawSystem
 	private readonly GraphicsDevice _graphicsDevice;
 	private readonly SpriteBatch _spriteBatch;
 
-	private const float TILE_SCALE = 32f;
+	private const float TILE_SCALE = 64f;
 
 	public RenderSystem(GraphicsDevice graphicsDevice)
 		: base(Aspect.All(typeof(BoxComponent), typeof(BoxComponent)))
@@ -48,7 +48,7 @@ public class RenderSystem : EntityDrawSystem
 			var pos = new Point2(position.Point.X * TILE_SCALE, position.Point.Y * TILE_SCALE);
 			var size = new Size2(box.Scale, box.Scale);
 			var offset = new Vector2(TILE_SCALE - box.Scale, TILE_SCALE - box.Scale);
-			var rect = new RectangleF(pos + offset, size);
+			var rect = new RectangleF(pos + offset, size - offset.ToSize());
 
 			if (box.Fill)
 				_spriteBatch.FillRectangle(rect, box.Color);

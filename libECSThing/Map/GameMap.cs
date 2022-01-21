@@ -1,7 +1,9 @@
-﻿using System.Drawing;
-using Size = MonoGame.Extended.Size;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.Xna.Framework;
+using MonoGame.Extended;
 
-namespace ECSThing;
+namespace ECSThing.Map;
 
 public class GameMap
 {

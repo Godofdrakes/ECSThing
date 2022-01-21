@@ -30,6 +30,7 @@ public class MovementSystem : EntityUpdateSystem
 			var position = PositionMapper.Get(entity);
 
 			position.Point += movement.Direction;
+			movement.Direction = Point.Zero;
 		}
 	}
 }
