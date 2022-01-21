@@ -6,10 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Monofoxe.Engine" Version="2.1.0" />
-        <PackageReference Include="Monofoxe.Tiled" Version="2.1.0" />
+        <PackageReference Include="MonoGame.Extended" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Entities" Version="3.8.0" />
         <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
             <PrivateAssets>All</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="Myra" Version="1.3.2" />
     </ItemGroup>
 </Project>
